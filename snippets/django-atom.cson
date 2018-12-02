@@ -1,4 +1,4 @@
-".source.python.django":
+".source.python":
   # Model fields
 
   "Model AutoField":
@@ -311,7 +311,7 @@
     prefix: "url"
     body: "url(regex=r'^${1:URLPARENT}/$', view=${1:VIEW}, name='${3:URLNAME}'),$0"
 
-".text.html.django":
+".text.html":
   autoescape:
     prefix: "autoescape"
     body: '''
